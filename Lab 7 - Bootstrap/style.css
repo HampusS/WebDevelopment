@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    background-color: #eee;
+}
+
+.row>div {
+    min-height: 100px;
+    line-height: 100px;
+    background-color: rgb(255, 193, 78);
+}
+
+#header, #footer, #nav{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#header{
+    background-color: lightblue;
+}
+
+#nav{
+    background-color: lightgreen;
+}
+
+.info{
+    background-color: rgb(255, 200, 241);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#footer{
+    background-color: yellow;
+}

@@ -1,0 +1,43 @@
+body{
+	background-color: powderblue;
+}
+
+h1{
+	text-align: center;
+	font-size: 300%;
+}
+a{
+  /* Här definieras grundstilen för alla länkar */
+  font-size: 150%;
+}
+a:visited{
+  /* Gäller bara besökta länkar */
+  font-size: 100%;
+}
+a:hover, a:focus{
+  /* Gäller bara när muspekaren är över (hover), eller när
+  länken är markerad med hjälp av tangenbordet (focus) */
+  font-size: 200%;
+}
+
+table{
+  background-color:#ffff99;
+  border:1px solid #cccccc;
+  width:300px;
+}
+#personal thead{
+	  background-color:#2A7E43;
+	  color: #ffff99;
+}
+#personal{
+	color:#2A7E43;
+}
+.viktig{
+	color: red;
+}
+thead{
+  background-color:#ffff33;
+}
+td, th{
+  padding:5px;
+}
